@@ -224,9 +224,6 @@ public:
   }
 
   void setWords(size_t words) { words_ = words; }
-
-  // experimental: hide inline-fix source tokens from cross attention
-  std::vector<float> crossMaskWithInlineFixSourceSuppressed() const;
 };
 
 /**
